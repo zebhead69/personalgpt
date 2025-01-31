@@ -1,13 +1,12 @@
-server:
-  env_name: ${APP_ENV:azopenai}
+server: { env_name: ${APP_ENV:az_openai} }
 
 llm:
-  mode: azopenai
+  mode: az_openai
 
 embedding:
-  mode: azopenai
+  mode: az_openai
 
-azopenai:
+az_openai:
   api_key: ${AZ_OPENAI_API_KEY:}
   azure_endpoint: ${AZ_OPENAI_ENDPOINT:}
   embedding_deployment_name: ${AZ_OPENAI_EMBEDDING_DEPLOYMENT_NAME:}
