@@ -1,3 +1,4 @@
+# personalgpt
 # PersonalGPT
 
 PersonalGPT is a Python-based tool for managing Poetry installations and related development tasks. This project is designed to streamline dependency management and enhance project workflows.
